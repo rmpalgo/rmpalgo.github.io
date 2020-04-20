@@ -12,7 +12,7 @@ $(document).ready( function() {
     $(window).scroll(function () {
        console.log('scrolled');
        $('.hello').animate({
-           left: "275px"
+           left: "320px"
        }, 1000);
         $('.dot').css('display', 'none');
         $('.dot').next().css('display', 'none');
