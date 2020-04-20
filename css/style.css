@@ -9,7 +9,7 @@ body {
 }
 
 @media screen and (max-width:600px) {
-    .container {
+    .container-grid {
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 1fr;
@@ -30,7 +30,7 @@ body {
 
     .ronnel-palencia {
         text-align: center;
-        margin-top: 2.8em;
+        margin-top: 28px;
     }
 
     .ronnel-palencia a {
@@ -48,7 +48,7 @@ body {
         display: flex;
         justify-content: flex-end;
         padding-right: 5px;
-        margin-top: 2.8em;
+        margin-top: 32px;
     }
 
     .work-and-about a {
@@ -62,11 +62,11 @@ body {
     .hello {
         font-family: "Montserrat", sans-serif;
         font-size: 48px;
-        font-weight: 900;
+        font-weight: bolder;
         position: absolute;
         opacity: 0.1;
         z-index: 900;
-        left: -300px;
+        left: -190px;
         top: 329px;
         background-color: transparent;
     }
@@ -77,13 +77,13 @@ body {
         padding-left: 5px;
         font-weight: 400;
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 12px;
     }
 
     .about-span {
         position: absolute;
         z-index: 1000;
-        bottom: 75px;
+        bottom: 55px;
         left: 60px;
         transform: rotate(-90deg);
         background-color: transparent;
@@ -91,7 +91,7 @@ body {
 
     .about {
         font-family: 'Montserrat', sans-serif;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .line {
@@ -108,8 +108,8 @@ body {
         background-color: #081456;
         display: inline-block;
         border: 1px solid #081456;
-        width: 20px;
-        height: 20px;
+        width: 10px;
+        height: 10px;
 
     }
 }
