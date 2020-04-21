@@ -1,9 +1,11 @@
 $(document).ready( function() {
     "use strict";
-
+    let $aboutWord = $('.about-word');
+    let $bigDot = $('.dot');
+    let $hello = $('.hello');
     $(window).on('load', function () {
 
-        $('.hello').animate({
+        $hello.animate({
             left: '105px',
             opacity: '1'
         }, 1500);
@@ -11,14 +13,14 @@ $(document).ready( function() {
 
     $(window).scroll(function () {
        console.log('scrolled');
-       $('.hello').animate({
+       $hello.animate({
            left: "320px"
        }, 1000);
-        $('.dot').css('display', 'none');
-        $('.dot').next().css('display', 'none');
-        $('.about-word').fadeOut();
-        $('.about-word').prev().fadeOut();
-        $('.hello').children().children().show();
+        $bigDot.css('display', 'none');
+        $bigDot.next().css('display', 'none');
+        $aboutWord.fadeOut();
+        $aboutWord.prev().fadeOut();
+        $hello.children().children().show();
 
     });
 
