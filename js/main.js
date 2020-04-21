@@ -21,6 +21,9 @@ $(document).ready( function() {
         $aboutWord.fadeOut();
         $aboutWord.prev().fadeOut();
         $hello.children().children().show();
+        $('.container-grid').animate({
+            background: '#FFCE19'
+        }, 1000);
 
     });
 
