@@ -13,18 +13,11 @@ $(document).ready( function() {
 
     $(window).scroll(function () {
        console.log('scrolled');
-       $hello.animate({
-           left: "320px"
-       }, 1000);
         $bigDot.css('display', 'none');
         $bigDot.next().css('display', 'none');
         $aboutWord.fadeOut();
         $aboutWord.prev().fadeOut();
         $hello.children().children().show();
-        $('.container-grid').animate({
-            background: '#FFCE19'
-        }, 1000);
-
     });
 
 });
